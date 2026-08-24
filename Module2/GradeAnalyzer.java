@@ -159,7 +159,7 @@ public class GradeAnalyzer {
     }
 
     public void testCalculateAverage() {
-        ArrayList<Integer> testScores = new ArrayList();
+        ArrayList<Integer> testScores = new ArrayList<>();
         testScores.add(87);
         testScores.add(75);
         testScores.add(50);
