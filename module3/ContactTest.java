@@ -42,8 +42,7 @@ public class ContactTest {
   }
 
   @Test
-  //test that two different Contact objects with the same name are independent (changing one does not affect the other). 
-  void toString_changeIndependentObjectWithoutImpact() {
+  void noChangeExpected_whenIndependentObjectChanges() {
     Contact contact1 = new Contact("Bahram sh", "555-1234");
     Contact contact2 = new Contact("Bahram Sh", "555-5678");
 
